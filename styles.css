@@ -1,5 +1,14 @@
-h1{
-  color:red;
-  padding-bottom:200px;
+body {
+	background:silver;
+	margin: 0;
+	overflow: hidden;
 }
- 
+h1{
+  color: red;
+}
+h1{
+  text-align: center;
+}
+.button{
+  align-self: center;
+}
