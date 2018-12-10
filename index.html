@@ -1,47 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/css/bootstrap-3.3.7-dist.css" type="text/css">
+    <script src="js/script.js"></script>
+    <title>Quiz-board</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="/css/bootstrap-3.3.7-dist.css" type="text/css">
-  <title>Quiz-board</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="jumbotron">
-      <span style="float:center">
-        <h1>JavaScript <br>Quiz </h1>
-      </span>
+  <body>
+    <div class="container">
+      <form class="isaac">
+        <div class="jumbotron">
+          <span style="float:center">
+            <h1>JavaScript<br>Quiz.</h1>
+          </span>
+        </div>
+        <div class="row">
+          Q1.Which statement is correct about Block elements? <br>
+          <input type="radio" name="choice1" value="0">They disfunction the activites of inline elements<br>
+          <input type="radio" name="choice1" value="20">They are displayed on a new line <br>
+        </div>
+        <div class="pow">
+          Q2.Which statement well suits inline elements? <br>
+          <input type="radio" name="choice2" value="20">They are nested inside other elements <br>
+          <input type="radio" name="choice2" value="0">They are building support for block elements <br>
+        </div>
+        <div class="low">
+          Q3.What are JavaScript Data Types? <br>
+          <input type="radio" name="choice3" value="20">String <br>
+          <input type="radio" name="choice3" value="0">variable <br>
+        </div>
+        <div id="submit">
+          <p class="p">Click here to submit</p>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
     </div>
-    <form class="" style="margin-Top:50px">
-      <div class="row">
-        1.Which statement is correct about Block elements? <br>
-        <input type="radio" name="choice1" value="0">They disfunction the activites of inline elements<br>
-        <input type="radio" name="choice1" value="20">They are displayed on a new line <br>
-      </div>
-      <div class="row">
-        2.Which statement well suits inline elements? <br>
-        <input type="radio" name="choice2" value="20">They are nested inside other elements <br>
-        <input type="radio" name="choice2" value="0">They are building support for block elements <br>
-      </div>
-      <div class="row">
-        3.What are JavaScript Data Types? <br>
-        <input type="radio" name="choice3" value="20">String <br>
-        <input type="radio" name="choice3" value="0">variable <br>
-      </div>
-  </div>
-  <div id="submit">
-           <p class="p">Click here to submit</p>
-           <button type="submit" class="btn">Submit</button>
-         </div>
-       </div>
-     </form>
-     <div id="youScore"></div>
-</div>
-
-</body>
-<script src="js/script.js"></script>
+  </body>
 
 </html>

@@ -9,7 +9,13 @@ h1{
 h1{
   text-align: center;
 }
-.row{
+.low{
+  padding-top: 15px;
+}
+.pow{
+  padding-top: 15px;
+}
+low{
   padding-top: 15px;
 }
 .container{
