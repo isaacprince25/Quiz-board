@@ -9,6 +9,6 @@ h1{
 h1{
   text-align: center;
 }
-.button{
-  align-self: center;
+.rows{
+  padding-top: 15px;
 }
