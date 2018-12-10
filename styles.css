@@ -1,5 +1,5 @@
 body {
-	background:silver;
+  background-color: silver;
 	margin: 0;
 	overflow: hidden;
 }
@@ -9,6 +9,13 @@ h1{
 h1{
   text-align: center;
 }
-.rows{
+.row{
   padding-top: 15px;
+}
+.container{
+  background-color:white;
+
+}
+body {
+  background-image: url(../js/isaac.jpg);
 }
