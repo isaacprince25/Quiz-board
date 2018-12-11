@@ -1,10 +1,50 @@
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <title></title>
-   </head>
-   <body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-   </body>
- </html>
+<head>
+  <meta charset="utf-8">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+  <title></title>
+</head>
+
+<body>
+  <h1>JavaScript<br>Quiz.</h1>
+  <div class="border">
+    <form id="quiz" action="index.html" method="post">
+      <p class="pone">
+        Q1.What are javascript Data Types? <br>
+        <input type="radio" name="choiceOne" value="20">String <br>
+        <input type="radio" name="choiceOne" value="0">three <br>
+      </p>
+      Q2.What is negative infinity? <br>
+      <input type="radio" name="choiceTwo" value="20">a number in JavaScript which can be derived by dividing negative number by zero. <br>
+      <input type="radio" name="choiceTwo" value="0">a number devisible by four and three <br>
+      <p class="two">
+        Q3.Which company developed JavaScript? <br>
+        <input type="radio" name="choiceThree" value="20">Netscape <br>
+        <input type="radio" name="choiceThree" value="0">Windwows <br>
+      </p>
+      Q4.What is the use of is NaN function? <br>
+      <input type="radio" name="choiceFour" value="20">isNan function returns true if the argument is not a number otherwise it is false <br>
+      <input type="radio" name="choiceFour" value="0">is a function that returns false if the argument is not a word <br>
+      <div class="submit">
+        <p class="p">Click here to submit</p>
+      <button type="submit" name="button">submit</button>
+      </div>
+    </form>
+  </div>
+  <div class="result">
+    <h1 id="totalScore"></h1>
+  </div>
+
+  <marquee id="all" behavior="alternate">
+    All the Best
+  </marquee>
+
+  <script src="js/script.js">
+    < /body>
+  </script>
+
+</html>
