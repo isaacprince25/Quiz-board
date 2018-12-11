@@ -1,4 +1,4 @@
- $(document).ready(function) {
+ $(document).ready(function)() {
 
    $("form#isaac").sumbit(function(event){
       var numberOne = $("input:radio[name=choiceOne]:checked").val();
