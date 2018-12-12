@@ -13,9 +13,9 @@ quiz board website to test your knowledge of javascript
 *Then the total marks are given the bottom of the website.
 ## How to view the Quiz board project.
 *Load your terminal to home directory.
-*input the following commands
-**git init*
-**git clone https://isaacprince25.github.io/quiz-board/*
+## *input the following commands
+## *git init*
+## *git clone https://isaacprince25.github.io/quiz-board/*
 * Then press cd/Desktop/Quiz-board/*
 *atom .*
 *The project will automatically load in your atom.
