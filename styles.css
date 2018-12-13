@@ -29,3 +29,8 @@ body{
   font-size:40px;
   font-weight:bold ;
 }
+.result{
+  color:red;
+  height: 20px;
+  width:20px;
+}

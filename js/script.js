@@ -7,43 +7,11 @@ $(document).ready(function() {
   var qN4 = $("input:radio[name=choiceThree]:checked").val();
 
 
-  var youScore = parseInt(choiceOne)+parseInt(choiceTwo)+parseInt(choiceThree);
+  var youScore = parseInt(qN1)+parseInt(qN2)+parseInt(qN3)+parseInt(qN4);
   $("#youScore").text("HI THERE! HERE'S WHAT YOU SCORED: " +youScore + "%");
-
-
-
-
   $("form#isaac").hide();
-  $("#youScore").show();
-    event.preventDefault();
-   });
+  $("result#youScore").show();
+  event.preventDefault();
+ });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
