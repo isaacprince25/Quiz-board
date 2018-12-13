@@ -1,15 +1,49 @@
- $(document).ready(function)() {
+$(document).ready(function() {
 
-   $("form#isaac").sumbit(function(event){
-      var numberOne = $("input:radio[name=choiceOne]:checked").val();
-      var numbaerTwo = $("input:radio[name=choiceTwo]:checked").val();
-      var numberThree = $("input:radio[name=choiceThree]:checked").val();
-      var numberFour = $("input:radio[name=choiceFour]:checked").val();
-
-      var totalScore =parseInt(numberOne)+ pareInt(numberTwo)+ parseInt(numberThree)+parseInt(numberFour);
-      $("#totalscore").text("Total Score" + totalScore+"mks");
+  $("form#isaac").submit(function(event){
+  var qN1 = $("input:radio[name=choiceOne]:checked").val();
+  var qN2 = $("input:radio[name=choiceTwo]:checked").val();
+  var qN3 = $("input:radio[name=choiceThree]:checked").val();
+  var qN4 = $("input:radio[name=choiceThree]:checked").val();
 
 
-      $("#totalScore").show();
+  var youScore = parseInt(choiceOne)+parseInt(choiceTwo)+parseInt(choiceThree);
+  $("#youScore").text("HI THERE! HERE'S WHAT YOU SCORED: " +youScore + "%");
+
+
+
+
+  $("form#isaac").hide();
+  $("#youScore").show();
+    event.preventDefault();
    });
- });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
